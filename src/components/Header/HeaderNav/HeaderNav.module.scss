@@ -1,7 +1,6 @@
 .wrapper {
   height: 100%;
   width: 100%;
-  border-bottom: 2px solid black;
 }
 
 .navList {
@@ -23,7 +22,7 @@
   }
 
   &:hover .navListItemButton {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
   }
 }
 
@@ -44,7 +43,9 @@
   position: absolute;
   top: 20px;
   left: -30px;
-  background-color: lightgray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px black;
+  background-color: black;
 
   &::after {
     content: "";
