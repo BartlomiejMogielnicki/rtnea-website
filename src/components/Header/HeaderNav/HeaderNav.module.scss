@@ -39,11 +39,30 @@
 
 .navListItemDropdown {
   display: none;
-  min-width: 160px;
+  min-width: 275px;
+  margin-top: 20px;
   position: absolute;
-  background-color: turquoise;
+  top: 20px;
+  left: -30px;
+  background-color: lightgray;
+
+  &::after {
+    content: "";
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    background-color: transparent;
+  }
 }
 
 .navListItemDropdownLink {
+  margin: 10px;
   display: block;
+  transition: 0.3s;
+
+  &:hover {
+    transform: translateX(15px);
+  }
 }
