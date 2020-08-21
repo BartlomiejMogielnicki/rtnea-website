@@ -1,6 +1,7 @@
 .wrapper {
   height: 100%;
   width: 100%;
+  border-bottom: 2px solid black;
 }
 
 .navList {
@@ -14,16 +15,35 @@
   justify-content: space-evenly;
 }
 
+.navListItem {
+  position: relative;
+
+  &:hover .navListItemDropdown {
+    display: block;
+  }
+
+  &:hover .navListItemButton {
+    border-bottom: 2px solid black;
+  }
+}
+
 .navListItemButton {
   background-color: transparent;
   border: none;
   font-size: 1rem;
   font-weight: bold;
   text-transform: uppercase;
-  border-bottom: 3px solid transparent;
+  border-bottom: 2px solid transparent;
   transition: 0.3s;
+}
 
-  &:hover {
-    border-bottom: 3px solid black;
-  }
+.navListItemDropdown {
+  display: none;
+  min-width: 160px;
+  position: absolute;
+  background-color: turquoise;
+}
+
+.navListItemDropdownLink {
+  display: block;
 }
