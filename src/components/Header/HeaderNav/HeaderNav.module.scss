@@ -1,0 +1,29 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.navList {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 900px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navListItemButton {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+
+  &:hover {
+    border-bottom: 3px solid black;
+  }
+}

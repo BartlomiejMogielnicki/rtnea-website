@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import "./Root.css";
+import "./Root.scss";
 
 import Header from "../../components/Header/Header";
 import StartView from "../StartView/StartView";

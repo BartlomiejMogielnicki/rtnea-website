@@ -1,32 +1,33 @@
 import React from "react";
+import styles from "./HeaderNav.module.scss";
 
 const HeaderNav = () => {
   return (
-    <nav>
-      <ul>
-        <li>
-          <button>Start</button>
+    <nav className={styles.wrapper}>
+      <ul className={styles.navList}>
+        <li className={styles.navListItem}>
+          <button className={styles.navListItemButton}>Start</button>
         </li>
-        <li>
-          <button>O nas</button>
+        <li className={styles.navListItem}>
+          <button className={styles.navListItemButton}>O nas</button>
         </li>
-        <li>
-          <button>Obsługa muzyczna</button>
+        <li className={styles.navListItem}>
+          <button className={styles.navListItemButton}>Muzyka</button>
         </li>
-        <li>
-          <button>Foto & Video</button>
+        <li className={styles.navListItem}>
+          <button className={styles.navListItemButton}>Foto & Video</button>
         </li>
-        <li>
-          <button>Love weddingowe & dekoracje</button>
+        <li className={styles.navListItem}>
+          <button className={styles.navListItemButton}>Dekoracje</button>
         </li>
-        <li>
-          <button>Usługi</button>
+        <li className={styles.navListItem}>
+          <button className={styles.navListItemButton}>Usługi</button>
         </li>
-        <li>
-          <button>Realizacje</button>
+        <li className={styles.navListItem}>
+          <button className={styles.navListItemButton}>Realizacje</button>
         </li>
-        <li>
-          <button>Kontakt</button>
+        <li className={styles.navListItem}>
+          <button className={styles.navListItemButton}>Kontakt</button>
         </li>
       </ul>
     </nav>
