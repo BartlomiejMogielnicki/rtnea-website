@@ -30,7 +30,9 @@ class Root extends Component {
             <Route path="/contact" component={ContactView} />"
           </Switch>
         </main>
-        <Footer />
+        <footer>
+          <Footer />
+        </footer>
       </BrowserRouter>
     );
   }
