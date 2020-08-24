@@ -19,7 +19,7 @@ const Footer = () => {
           <i className="fab fa-twitter-square"></i>
         </a>
       </div>
-      <p className={styles.copyright}>Copyrigth &copy; 2020</p>
+      <p className={styles.copyright}>Copyright &copy; 2020</p>
     </div>
   );
 };
