@@ -4,22 +4,22 @@ import styles from "./Footer.module.scss";
 const Footer = () => {
   return (
     <div className={styles.wrapper}>
-      <h2>Rock The Night</h2>
-      <p>
-        <i class="fas fa-phone"></i>111-222-333
+      <h2 className={styles.title}>Rock The Night</h2>
+      <p className={styles.phone}>
+        <i className="fas fa-phone"></i>111-222-333
       </p>
-      <div>
+      <div className={styles.socialContainer}>
         <a href="#">
-          <i class="fab fa-facebook-square"></i>
+          <i className="fab fa-facebook-square"></i>
         </a>
         <a href="#">
-          <i class="fab fa-instagram-square"></i>
+          <i className="fab fa-instagram-square"></i>
         </a>
         <a href="#">
-          <i class="fab fa-twitter-square"></i>
+          <i className="fab fa-twitter-square"></i>
         </a>
       </div>
-      <p>Copyrigth &copy; 2020</p>
+      <p className={styles.copyright}>Copyrigth &copy; 2020</p>
     </div>
   );
 };

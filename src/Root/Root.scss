@@ -31,10 +31,21 @@ button:focus {
 }
 
 main {
+  margin-bottom: 200px;
   position: absolute;
   top: 0;
   left: 0;
   min-height: 100vh;
   width: 100%;
   z-index: -1;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -2;
+  background-color: black;
 }
