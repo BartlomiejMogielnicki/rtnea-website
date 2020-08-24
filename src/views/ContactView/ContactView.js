@@ -22,7 +22,7 @@ class ContactView extends React.Component {
 
     // Name input verification
     if (this.state.name === "") {
-      nameErrorMessage = "Please enter your name";
+      nameErrorMessage = "Proszę wpisać imię i nazwisko";
     } else {
       name = true;
     }
@@ -30,16 +30,16 @@ class ContactView extends React.Component {
     // E-mail input verification
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     if (this.state.email === "") {
-      emailErrorMessage = "Please enter your e-mail address";
+      emailErrorMessage = "Proszę wpisać adres e-mail";
     } else if (!re.test(String(this.state.email).toLowerCase())) {
-      emailErrorMessage = "E-mail address is invalid";
+      emailErrorMessage = "Adres e-mail jest nieprawidłowy";
     } else {
       email = true;
     }
 
     // Text message input verification
     if (this.state.text === "") {
-      textErrorMessage = "Please enter your message";
+      textErrorMessage = "Proszę wpisać treść wiadomości";
     } else {
       text = true;
     }

@@ -125,7 +125,7 @@ const HeaderNav = () => {
           <button className={styles.navListItemButton}>Kontakt</button>
           <div className={styles.navListItemDropdown}>
             <a href="/contact" className={styles.navListItemDropdownLink}>
-              Dane kontaktowe
+              Formularz kontaktowy
             </a>
           </div>
         </li>
